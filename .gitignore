@@ -1,9 +1,10 @@
+### Terraform
 #  Local .terraform directories
 **/.terraform/*
 
-# .tfstate files
-*.tfstate
-*.tfstate.*
-
-# .tfvars files
-*.tfvars
+### Go
+# Output of the go coverage tool
+*.out
+# dependencies and (zipped) packages
+vendor
+bin
